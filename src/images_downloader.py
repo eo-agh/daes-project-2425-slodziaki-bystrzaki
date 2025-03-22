@@ -104,7 +104,7 @@ from PIL import Image
 
 def main():
     parser = argparse.ArgumentParser(description="Download Sentinel-2 images for coordinates from a file.")
-    parser.add_argument("input_file", type=str, help="Path to the CSV file containing lon, lat values.")
+    parser.add_argument("input_file", type=str, help="Path to the CSV file containing coordinates.")
     parser.add_argument("output_dir", type=str, help="Directory to save the downloaded images.")
     parser.add_argument("--bbox_size", type=float, default=0.05, help="Bounding box size for image download.")
     parser.add_argument("--resolution", type=int, default=30, help="Resolution for SentinelHub request.")
@@ -116,11 +116,12 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
 
     with open(args.input_file, "r") as f:
-        reader = csv.reader(f)
+        reader = csv.DictReader(f)  # Use DictReader to handle column names
         for row in reader:
             try:
-                lon, lat = map(float, row)
-                print(f"Processing coordinates: lon={lon}, lat={lat}")
+                name = row["name"].replace(" ", "_")  # Replace spaces with underscores
+                lon, lat = float(row["lon"]), float(row["lat"])
+                print(f"Processing: {name} (lon={lon}, lat={lat})")
 
                 # Download image
                 image = download_image(lon, lat, args.bbox_size, args.resolution, config)
@@ -129,13 +130,13 @@ def main():
                 image_uint8 = (image * 255).astype(np.uint8)
                 img_pil = Image.fromarray(image_uint8)
 
-                # Save image
-                output_path = os.path.join(args.output_dir, f"image_{lon}_{lat}.png")
+                # Save image with city name
+                output_path = os.path.join(args.output_dir, f"{name}.png")
                 img_pil.save(output_path)
                 print(f"Saved image: {output_path}")
 
             except Exception as e:
-                print(f"Error processing ({lon}, {lat}): {e}")
+                print(f"Error processing {name} ({lon}, {lat}): {e}")
 
 if __name__ == "__main__":
     main()

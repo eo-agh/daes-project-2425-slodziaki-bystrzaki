@@ -21,3 +21,11 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+# Opis funkcji
+
+## pobieranie obrazów
+
+`python src/images_downloader.py data/full_data.csv images`
+
+Ten skrypt pobiera obrazy satelitarne na podstawie pliku ze współrzędnymi geograficznymi.
