@@ -4,3 +4,5 @@ torch
 torchvision
 sentinelhub
 pillow
+requests
+pandas

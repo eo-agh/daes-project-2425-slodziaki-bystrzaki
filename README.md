@@ -24,6 +24,12 @@ pip install -r requirements.txt
 
 # Opis funkcji
 
+## tworzenie pliku z informacjami o miastach (nazwa, longitude, latitude, populacja)
+
+`python src/fetch_and_prepare_data.py data/cities.txt`
+
+Ten skrypt pobiera koordynaty oraz populacje miast na podstawie pliku z nazwami miast.
+
 ## pobieranie obrazów
 
 `python src/images_downloader.py data/full_data.csv images`
