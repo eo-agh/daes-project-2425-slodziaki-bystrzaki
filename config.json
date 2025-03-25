@@ -1,6 +1,7 @@
 {
   "SH_CLIENT_ID": "insert client id here (from sentinelhub)",
   "SH_CLIENT_SECRET": "insert client secret here (from sentinelhub)",
-  "NINJAS_API_KEY": "3ixuLnkxv+vaXC8wCI0pcA==kmuv8fwsqtdJzDb9" 
+  "NINJAS_API_KEY": "insert client key here (from ninja-api)", 
+  "GEONAMES_USERNAME": "insert username here (from geonames)"
 }
   

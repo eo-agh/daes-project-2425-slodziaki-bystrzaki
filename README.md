@@ -24,6 +24,12 @@ pip install -r requirements.txt
 
 # Opis funkcji
 
+## tworzenie pliku z nazwami miastach
+
+`src/cities_names_fetcher.py`
+
+Ten skrypt tworzy plik txt z nazwami miast.
+
 ## tworzenie pliku z informacjami o miastach (nazwa, longitude, latitude, populacja)
 
 `python src/fetch_and_prepare_data.py data/cities.txt`

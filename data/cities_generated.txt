@@ -1,0 +1,1014 @@
+Shanghai
+Beijing
+Shenzhen
+Guangzhou
+Chengdu
+Tianjin
+Wuhan
+Dongguan
+Xi'an
+Nanjing
+Hangzhou
+Foshan
+Chongqing
+Qingdao
+Shenyang
+Suzhou
+Harbin
+Hefei
+Dalian
+Changchun
+Xiamen
+Wuxi
+Jinan
+Taiyuan
+Zhengzhou
+Shijiazhuang
+Kunming
+Zhongshan
+Nanning
+Shantou
+São Paulo
+Rio de Janeiro
+Belo Horizonte
+Salvador
+Fortaleza
+Manaus
+Brasília
+Curitiba
+Recife
+Goiânia
+Belém
+Porto Alegre
+Guarulhos
+Maceió
+Campinas
+São Luís
+Campo Grande
+Natal
+Teresina
+Nova Iguaçu
+Duque de Caxias
+João Pessoa
+São Bernardo do Campo
+São José dos Campos
+Ribeirão Preto
+Jaboatão
+Sorocaba
+Osasco
+Aracaju
+Santo André
+Dhaka
+Chittagong
+Gazipur
+Khulna
+Rangpur City
+Comilla
+Rajshahi
+Pallabi
+Mirpur Model Thana
+Mohāmmadpur
+Hāthazāri
+Bāndarban
+Shibganj
+Natore
+Kāfrul
+Tongi
+Bhātāra
+Savar Upazila
+Narsingdi
+Nogor Noluakot
+Bagerhat
+Cox’s Bāzār
+Jessore
+Nāgarpur
+Sylhet
+Mymensingh
+Nārāyanganj
+Bogra
+Dinajpur
+Karnaphuli
+Bogotá
+Santiago de Cali
+Medellín
+Barranquilla
+Cartagena
+Cúcuta
+Bucaramanga
+Ibagué
+Santa Marta
+Montería
+Valledupar
+Pereira
+Manizales
+Buenaventura
+Bello
+Pasto
+Neiva
+Soledad
+Villavicencio
+Popayán
+Soacha
+Palmira
+Armenia
+Itagüí
+Sincelejo
+Floridablanca
+Buenaventura
+Tuluá
+Dosquebradas
+Barrancabermeja
+Buenos Aires
+Córdoba
+Rosario
+Mar del Plata
+Tucumán
+Salta
+Santa Fe
+Corrientes
+Posadas
+Bahía Blanca
+Resistencia
+Merlo
+Quilmes
+San Salvador de Jujuy
+Santiago del Estero
+Paraná
+Neuquén
+José C. Paz
+Formosa
+La Plata
+Berazategui
+La Rioja
+San Luis
+San Miguel
+Ituzaingó
+Catamarca
+Río Cuarto
+Balvanera
+Concordia
+Comodoro Rivadavia
+Kabul
+Herat
+Mazari Sharif
+Kandahar
+Jalalabad
+Kunduz
+Ghazni
+Balkh
+Baghlan
+Gardez
+Khōst
+Maymana
+Khanabad
+Bāzārak
+Bāzār-e Yakāwlang
+Khulm
+Taloqan
+Bāmyān
+Pul-e Khumrī
+Shibirghān
+Charikar
+Sar-e Pul
+Zaranj
+Paghmān
+Asadābād
+Aībak
+Fayzabad
+Lashkar Gah
+Gereshk
+Farah
+Toronto
+Montreal
+Calgary
+Edmonton
+Ottawa
+Winnipeg
+Mississauga
+Vancouver
+Brampton
+Québec
+Hamilton
+Halifax
+Laval
+Surrey
+Etobicoke
+London
+Markham
+Vaughan
+Okanagan
+Victoria
+Windsor
+Kitchener
+Gatineau
+Longueuil
+Burnaby
+Ladner
+Saskatoon
+Richmond
+Richmond Hill
+Oakville
+Santiago
+Puente Alto
+Antofagasta
+Viña del Mar
+Valparaíso
+Talcahuano
+San Bernardo
+Port Montt
+Temuco
+Concepción
+Arica
+Rancagua
+La Pintana
+Talca
+Iquique
+Calama
+Coquimbo
+La Serena
+Chillán
+Osorno
+Valdivia
+Quilpué
+Copiapó
+Los Ángeles
+Punta Arenas
+Alto Hospicio
+Lo Prado
+Curicó
+Villa Alemana
+Coronel
+Brussels
+Antwerp
+Ghent
+Charleroi
+Liège
+Anderlecht
+Schaarbeek
+Bruges
+Namur
+Leuven
+Molenbeek-Saint-Jean
+Mons
+Ixelles-Elsene
+Uccle
+Deurne
+Hasselt
+Aalst
+Mechelen
+La Louvière
+Kortrijk
+Tournai
+Ostend
+Sint-Niklaas
+Genk
+Seraing
+Woluwe-Saint-Lambert
+Forest
+Roeselare
+Verviers
+Jette
+La Paz
+Santa Cruz
+Cochabamba
+Sucre
+Oruro
+Sacaba
+Quillacollo
+Tarija
+Potosí
+Riberalta
+Montero
+Viacha
+Trinidad
+Yacuiba
+Tiquipaya
+Vinto
+Colcapirhua
+Sipe Sipe
+Caranavi
+Villamontes
+Guayaramerín
+Bermejo
+Mizque
+Villazón
+Llallagua
+Camiri
+Cobija
+San Borja
+San Ignacio de Velasco
+Tupiza
+Baku
+Sumqayit
+Ganja
+Lankaran
+Tovuz
+Yevlakh
+Mingachevir
+Lerik
+Saatlı
+Qaraçuxur
+Şirvan
+Şǝki
+Bakikhanov
+Nakhchivan
+Khankendi
+Ağcabǝdi
+Göyçay
+Baladjary
+Maştağa
+Ağdam
+Xirdalan
+Bǝrdǝ
+Xaçmaz
+Salyan
+Hövsan
+Jalilabad
+Şǝmkir
+Imishli
+Zaqatala
+Lokbatan
+Dubai
+Abu Dhabi
+Sharjah
+Al Ain
+Ajman
+Deira
+Ras al-Khaimah
+Musaffah City
+Jebel Ali
+Business Bay
+Dubai Investments Park
+Dubai International City
+Dubai Marina
+Al Majaz
+Warisan
+Silicon Oasis
+Fujairah
+Ar Rumaylah
+Khalifah A City
+Mohammed Bin Zayed City
+Hawr al ‘Anz
+Reef Al Fujairah City
+Bani Yas City
+Dubai Festival City
+Al Karama
+Zayed City
+Umm Al Quwain City
+Al Shamkhah City
+Mirdif
+Al Warqaa
+Minsk
+Homyel
+Hrodna
+Vitebsk
+Mogilev
+Brest
+Babruysk
+Baranovichi
+Borisov
+Pinsk
+Mazyr
+Lida
+Orsha
+Salihorsk
+Navapolatsk
+Maladzyechna
+Polatsk
+Zhlobin
+Rechytsa
+Zhodzina
+Svyetlahorsk
+Slutsk
+Kobryn
+Slonim
+Vawkavysk
+Kalinkavichy
+Smarhon'
+Rahachow
+Dzyarzhynsk
+Asipovichy
+Vienna
+Graz
+Linz
+Favoriten
+Donaustadt
+Floridsdorf
+Salzburg
+Innsbruck
+Ottakring
+Simmering
+Klagenfurt
+Landstraße
+Penzing
+Meidling
+Brigittenau
+Fünfhaus
+Döbling
+Villach
+Hernals
+Margareten
+Hietzing
+Währing
+Aspern
+Dornbirn
+Wiener Neustadt
+Alsergrund
+Steyr
+Hötting
+Feldkirch
+Jakomini
+Zurich
+Geneva
+Basel
+Lausanne
+Bern
+Winterthur
+Lucerne
+St. Gallen
+Lugano
+Zürich (Kreis 11)
+Biel/Bienne
+Zürich (Kreis 3)
+Zürich (Kreis 9)
+Thun
+Köniz
+La Chaux-de-Fonds
+Zürich (Kreis 10)
+Rapperswil
+Schaffhausen
+Zürich (Kreis 7)
+Fribourg
+Chur
+Neuchâtel
+Emmen
+Vernier
+Zürich (Kreis 6)
+Zürich (Kreis 2)
+Zürich (Kreis 9) / Altstetten
+Zürich (Kreis 12)
+Sion
+Sofia
+Plovdiv
+Varna
+Burgas
+Stara Zagora
+Rousse
+Pleven
+Sliven
+Pernik
+Dobrich
+Shumen
+Blagoevgrad
+Haskovo
+Veliko Tarnovo
+Gabrovo
+Pazardzhik
+Vratsa
+Yambol
+Asenovgrad
+Kardzhali
+Kazanlak
+Montana
+Vidin
+Razgrad
+Dimitrovgrad
+Kyustendil
+Targovishte
+Dupnitsa
+Gorna Oryahovitsa
+Petrich
+San José
+Puerto Limón
+San Francisco
+Alajuela
+Liberia
+Paraíso
+Puntarenas
+San Isidro
+Curridabat
+San Vicente
+San Vicente de Moravia
+San José
+Purral
+Turrialba
+San Miguel
+San Pedro
+San Rafael Abajo
+Quesada
+Ipís
+Cartago
+Chacarita
+San Juan
+Mercedes Norte
+Guadalupe
+Aserrí
+San Rafael
+San Felipe
+Patarrá
+Tejar
+Heredia
+Sarajevo
+Banja Luka
+Zenica
+Tuzla
+Mostar
+Bihać
+Ilidža
+Lukavac
+Bugojno
+Brčko
+Bijeljina
+Prijedor
+Trebinje
+Travnik
+Doboj
+Cazin
+Velika Kladuša
+Visoko
+Goražde
+Konjic
+Gračanica
+Gradačac
+Bosanska Krupa
+Mrkonjić Grad
+Foča
+Zavidovići
+Živinice
+Sanski Most
+Gradiška
+Bileća
+Yerevan
+Malatia-Sebastia
+Shengavit
+Nor Nork
+Erebuni
+Kentron District
+Arabkir
+Ajapnyak
+Gyumri
+Vanadzor
+Kanaker-Zeytun
+Avan
+Abovyan
+Hrazdan
+Davtashen
+Vagharshapat
+Kapan
+Armavir
+Charentsavan
+Artashat
+Masis
+Ijevan
+Sevan
+Gavarr
+Artik
+Goris
+Ararat
+Ashtarak
+Dilijan
+Spitak
+Tirana
+Durrës
+Elbasan
+Vlorë
+Shkodër
+Pogradec
+Fier-Çifçi
+Korçë
+Fier
+Berat
+Lushnjë
+Kavajë
+Laç
+Gjirokastër
+Patos Fshat
+Krujë
+Lezhë
+Kukës
+Patos
+Burrel
+Sarandë
+Peshkopi
+Cërrik
+Shijak
+Librazhd-Qendër
+Kuçovë
+Xhafzotaj
+Tepelenë
+Gramsh
+Bulqizë
+Riffa
+Manama
+Al Muharraq
+Dār Kulayb
+Hamad Town
+Isa Town
+Sitrah
+Jidd Ḩafş
+Al Ḩadd
+Sanābis
+As Sahlah al Fawqīyah
+As Sahlat al Ḩadrīyah
+Al Qal‘ah
+Wādiyān
+Umm Jidr
+Umm ash Sha‘ūm
+Umm ash Shajar
+Umm al Ḩaşşam
+Tūblī
+Ţashshān
+Sufala
+Shahrakkān
+Saar
+Sanad
+Samāhīj
+Salmābād
+Şāfirah
+Şadad
+Rayyā
+Qubayţ
+Thimphu
+Phuntsholing
+Tsirang
+Punakha
+Pemagatshel
+Paro
+Sarpang
+Samdrup Jongkhar
+Wangdue Phodrang
+Jakar
+Samtse
+Pajo
+Trashi Yangtse
+Mongar
+Tsimasham
+Trongsa
+Daga
+Laya
+Daphu
+Ha
+Panbang
+Trashigang
+Shemgang
+Nganglam
+Daifam
+Bhangtar
+Gasa
+Wamrong
+Lhuentse
+Bjimthangkha
+Bandar Seri Begawan
+Sengkurong
+Mentiri
+Kuala Belait
+Seria
+Tutong
+Serasa
+Liang
+Perumahan Negara Panchor
+Telisai
+Kota Batu
+Kampong Tunah Jambu
+Pengkalan Batu
+Kampong Meragang
+Keriam
+Lumapas
+Kampong Lambak A
+Kampong Mata Mata
+Kampong Beribi
+Sungai Hanching
+Kampong Mulaut
+Kampong Lugu
+Kampong Rimba
+Kiudang
+Kampong Kiajong
+Kapok
+Kampong Peninjau
+Bangar
+Kampong Tanjong Nangka
+Kampong Jerudong
+Nassau
+Lucaya
+Freeport
+Killarney
+West End
+Cooper’s Town
+San Andros
+George Town
+Marsh Harbour
+High Rock
+Andros Town
+Clarence Town
+Dunmore Town
+Spanish Wells
+Arthur’s Town
+Alice Town
+Cockburn Town
+Sweeting Cay
+Matthew Town
+Snug Corner
+Grand Cay
+Nicholl’s Town
+Colonel Hill
+Abraham’s Bay
+Pirates Well
+Port Nelson
+Duncan Town
+Albert Town
+Walker Cay
+Rainbow Bay
+Belize City
+San Ignacio
+San Pedro Town
+Orange Walk
+Corozal
+Belmopan
+Dangriga
+Benque Viejo el Carmen
+Punta Gorda
+Ladyville
+Placencia
+Independence
+Shipyard
+Sarteneja
+San Jose
+Little Belize
+San Narciso
+Caye Caulker
+Valley of Peace
+Santa Familia
+Xaibe
+San Felipe
+Carmelita
+Armenia
+Progresso
+Esperanza
+San Antonio
+Douglas
+Blackman Eddy
+Double Head Cabbage
+Bridgetown
+Speightstown
+Oistins
+Bathsheba
+Hastings
+Holetown
+Crane
+Crab Hill
+Greenland
+Blackmans
+Hillaby
+Bruce Vale
+Mile and a Quarter
+The Gap
+Yorkshire
+Wotton
+Worthing
+Workhall
+Woodbourne
+Windy Ridge
+Windy Hill
+Windsor
+Wilson Hill
+Wildey
+Wilcox
+White Hill
+Whitehaven
+White Hall
+Weymouth
+Weston
+Oranjestad
+Noord
+Tanki Leendert
+San Nicolas
+Santa Cruz
+Paradera
+Savaneta
+Palm Beach
+Pos Chiquito
+Alto Vista
+Moco
+Washington
+Ceru Colorado
+Westpunt
+Wayaca
+Tarabana
+Tanki Flip
+Tamarijn
+Solito
+Soledad
+Siribana
+Sint Anna
+Simeon Antonio
+Shiribana
+Shete
+Shabiruri
+Shaba
+Sero Blanco
+Santa Martha
+Santa Helena
+St John's
+All Saints
+Piggotts
+Liberta
+Bolands
+Potters Village
+Codrington
+Parham
+Carlisle
+Cedar Grove
+Swetes
+English Harbour Town
+Old Road
+Freetown
+Falmouth
+Freemans Village
+Yorks
+Woods
+Willoughby
+Willis Freemans
+Willikies
+Weatherills
+Watsons
+Vernons
+Urlings
+Tyrells
+Tramontania
+Tomlinson
+The Grove
+The Garden
+Andorra la Vella
+Les Escaldes
+Encamp
+Sant Julià de Lòria
+La Massana
+Canillo
+Ordino
+Pas de la Casa
+Arinsal
+Vila
+El Tarter
+Aixirivall
+Anyós
+Sispony
+Soldeu
+l'Aldosa
+Puiol del Piu
+Pal
+l'Aldosa de canillo
+La Margineda
+Les Subiranes
+Aixovall
+Aixàs
+Xixerella
+Tossalet i Vinyals
+Sornàs
+Segudet
+Sant Joan de Caselles
+Santa Coloma
+Ransol
+Saint George
+Hamilton
+Stovel Bay
+Cross Bay
+Darrell's Wharf Ferry Stop
+Harrington Hundreds
+Warwick Camp
+Tucker’s Town
+Flatt’s Village
+Sunnyside
+Somerset
+Scotts Hill
+North Shore Village
+Mount Pleasant
+Melrose
+Hog Bay
+Hinson Hall
+Hill View
+Chelston
+Cashew City
+Camden
+Bethaven
+Pembroke Parish
+Mariehamn
+Ytterby
+Jomala
+Finström
+Lemland
+Saltvik
+Hammarland
+Eckerö
+Sund
+Föglö
+Brändö
+Geta
+Vårdö
+Kumlinge
+Kökar
+Lumparland
+Sottunga
+Lillposten
+Ramsholm
+Nabbas
+Emtvik
+Kvarnkulla
+Sälvik
+Finnslätt
+Västernäs
+Nötholm
+Hullberga
+Persby
+Sveden
+Kleven
+Kralendijk
+Dorp Antriol
+Upper Hell's Gate
+Dorp Rincon
+Dorp Tera Kora
+Oranjestad
+Golden Rock
+The Bottom
+Windward Side
+Saint John's Flat
+Mountain Piece
+Hato
+Wilton
+White Hook
+Wanapa
+Walkers
+Vlijt
+Upper Town
+Upper Round Hill
+Tom Ball
+The Level
+The Gap
+The Farm
+Tera Hundu
+Sint Joris
+Senkuria
+Schotsenhoek
+Santa Krus
+Santa Clara
+Santa Catarina
+The Valley
+Blowing Point Village
+East End Village
+Sandy Ground Village
+White Hill
+West End Village
+Welches Hill
+Wattices
+The Quarter
+The Fountain
+The Forest
+Farrington
+The Copse
+Stoney Ground
+South Hill Village
+Shoal Bay Village
+Rey Hill
+North Side
+North Hill Village
+Mount Fortune
+Mahogany Tree
+Lower South Hill
+Long Path
+Long Ground
+Long Bay Village
+Long Bay
+Little Dix
+Junks Hole
+Island Harbour
+George Hill
+Gustavia
+Toiny
+Saint-Jean
+Quartier du Roi
+Quartier de Lorient
+Public
+Petit Cul-de-Sac
+Marigot
+Lurin
+Le Gouverneur
+La Grande Saline
+Grand Fond
+Grand Cul-de-Sac
+Corossol
+Colombier
+Anse des Flamands
+Anse des Cayes
+Mont Jean
+Pointe Milou
+Carénage
+Terre Neuve
+Merlette
+Anse des Lézards
+La Petite Saline
+Vitet
+Devet
+Camaruche
+La Pointe
+Caribe Frances
+Bantam Village
+West Island
