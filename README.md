@@ -30,14 +30,29 @@ pip install -r requirements.txt
 
 Ten skrypt tworzy plik txt z nazwami miast.
 
+Output:
+
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/646ac67e-5194-45c9-b4b0-53e5f97af681" />
+
+
 ## tworzenie pliku z informacjami o miastach (nazwa, longitude, latitude, populacja)
 
 `python src/fetch_and_prepare_data.py data/cities.txt`
 
 Ten skrypt pobiera koordynaty oraz populacje miast na podstawie pliku z nazwami miast.
 
+Output:
+
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/8f5ef116-e916-44cd-922d-8bc30ac745f7" />
+
+
 ## pobieranie obrazów
 
 `python src/images_downloader.py data/full_data.csv images`
 
 Ten skrypt pobiera obrazy satelitarne na podstawie pliku ze współrzędnymi geograficznymi.
+
+Output:
+
+<img width="1364" alt="image" src="https://github.com/user-attachments/assets/3564045b-48a3-4c5a-ba2a-8f0c9ec49dbf" />
+
