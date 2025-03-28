@@ -41,14 +41,15 @@ def process_city_data(input_file, api_key):
         api_key (str): API Key associated with the account.
     """
     cities_list = []
+    output_path = "data/full_data.csv"
 
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"Input file not found: {input_file}")
 
     with open(input_file, "r") as f:
         city_names = [line.strip() for line in f.readlines()]
-        
-    for city_name in city_names:
+    
+    for index, city_name in enumerate(city_names):
         try:
             print(f"Processing: {city_name}")
             # get city data
@@ -56,13 +57,11 @@ def process_city_data(input_file, api_key):
             cities_list.append(city_info)
         except Exception as e:
             print(f"Error processing {city_name}: {e}")
-
-    cities_data = pd.DataFrame(cities_list, columns=["name", "lon", "lat", "population"])
-
-    # Save data to CSV
-    output_path = "data/full_data.csv"
-    cities_data.to_csv(output_path, index=False)
-    print(f"Saved data to: {output_path}")
+        
+        if not index % 10:
+            cities_data = pd.DataFrame(cities_list, columns=["name", "lon", "lat", "population"])
+            cities_data.to_csv(output_path, index=False)
+            print(f"Saved data to: {output_path}")
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch city data and save to CSV.")
