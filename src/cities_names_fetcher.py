@@ -5,7 +5,7 @@ import requests
 def load_api_username() :
     with open("config.json") as f:
         config_json = json.load(f)
-    return config_json['GEONAMES_USERNAME']
+    return 'anielka'
         
 
 def get_country_info(number_of_countries, username):
@@ -76,23 +76,44 @@ def get_cities_names(country_code, amount, username):
     return cities
 
 import csv
+import argparse
 import pandas as pd
 import numpy as np
 
 def main():
+    parser = argparse.ArgumentParser(description="Fetch city names and save to TXT.")
+    parser.add_argument("cities_amount", type=int, help="Amount of city's names that you want to fetch.")
+    parser.add_argument("--multiplier", type=int, default=3, help="Amount of city's names that you want to fetch.")
 
+    args = parser.parse_args()
     api_username = load_api_username()
-    cities_amount_from_one_country = 30
-    number_of_countries = 60
+    number_of_countries = 250
     cities = []
-
-    for country_info in get_country_info(number_of_countries, api_username):
-        cities.extend(get_cities_names(country_info["countryCode"], cities_amount_from_one_country, api_username))
-
+    countries = []
+    counter = 0
+    
+    try:
+        for index, country_info in enumerate(get_country_info(number_of_countries, api_username)):
+            cities_amount_from_one_country = int((int(country_info["population"]) + 1e8 ) / 1e8 ) * args.multiplier
+            counter += cities_amount_from_one_country
+            cities.extend(get_cities_names(country_info["countryCode"], cities_amount_from_one_country, api_username))
+            countries.append(country_info["countryName"])
+            with open('data/cities_generated.txt', 'w', encoding='utf-8') as file:
+                for line in cities:
+                    file.write(f"{line}\n")
+            print(f"Progress: {counter}/{args.cities_amount}")
+            if counter >= args.cities_amount:
+                break
+    except Exception as e:
+        print(f"Error processing {country_info['countryName']}: {e}")
+    
     with open('data/cities_generated.txt', 'w', encoding='utf-8') as file:
         for line in cities:
             file.write(f"{line}\n")
-
+    
+    with open('data/countries.txt', 'w', encoding='utf-8') as file:
+        for line in countries:
+            file.write(f"{line}\n")
 
 if __name__ == "__main__":
     main()

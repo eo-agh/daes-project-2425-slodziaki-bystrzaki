@@ -52,7 +52,6 @@ def process_city_data(input_file, api_key):
     for index, city_name in enumerate(city_names):
         try:
             print(f"Processing: {city_name}")
-            # get city data
             city_info = get_city_info(city_name, api_key)
             cities_list.append(city_info)
         except Exception as e:
