@@ -5,8 +5,7 @@ import requests
 def load_api_username() :
     with open("config.json") as f:
         config_json = json.load(f)
-    return 'anielka'
-        
+    return config_json['GEONAMES_USERNAME']
 
 def get_country_info(number_of_countries, username):
     """
