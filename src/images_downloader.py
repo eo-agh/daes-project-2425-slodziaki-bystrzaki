@@ -106,7 +106,7 @@ def main():
     parser = argparse.ArgumentParser(description="Download Sentinel-2 images for coordinates from a file.")
     parser.add_argument("input_file", type=str, help="Path to the CSV file containing coordinates.")
     parser.add_argument("output_dir", type=str, help="Directory to save the downloaded images.")
-    parser.add_argument("--bbox_size", type=float, default=0.05, help="Bounding box size for image download.")
+    parser.add_argument("--bbox_size", type=float, default=0.1, help="Bounding box size for image download.")
     parser.add_argument("--resolution", type=int, default=30, help="Resolution for SentinelHub request.")
 
     args = parser.parse_args()
