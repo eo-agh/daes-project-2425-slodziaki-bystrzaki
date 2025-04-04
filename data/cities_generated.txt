@@ -197,7 +197,7 @@ Theni
 Jabalpur
 Howrah
 Raipur
-Tiruchirappalli
+Tiruchchirappalli
 Aurangabad
 Shivaji Nagar
 Solapur
@@ -253,7 +253,7 @@ Karol Bāgh
 Asansol
 Sahāranpur
 Vellore
-Kalaburgi
+Kalaburagi
 Bhātpāra
 Gaya
 Jammu
@@ -273,7 +273,7 @@ Korba
 Mangaluru
 Jhānsi
 Thoothukudi
-Bhāgalpur
+Bhagalpur
 Kākināda
 Pānihāti
 Rajahmundry
@@ -358,36 +358,36 @@ Jambi City
 Cimahi
 Surakarta
 Manado
-Karachi
 Lahore
+Karachi
+Peshawar
 Faisalabad
 Rawalpindi
+Gujranwala
 Multan
 Hyderābād
-Gujranwala
-Peshawar
-Rahim Yar Khan
 Quetta
+Bannu
+Sargodha
+Siālkot
+Bahawalpur
+Dera Ismail Khan
 Muzaffarabad
 Battagram City
 Kotli
 Islamabad
-Bahawalpur
-Sargodha
-Siālkot
+Shekhupura
+Gujrat
 Sukkur
+Sahiwal
+Okara
+Rahim Yar Khan
+Kasur
+Dera Ghazi Khan
+Tando Allahyar
 Wah Cantt
 Larkana
-Shekhupura
-Bhimber
-Jhang Sadar
-Gujrat
-Mardan
-Malir Cantonment
-Kasur
-Mingora
-Dera Ghazi Khan
-Sahiwal
+Nawabshah
 São Paulo
 Rio de Janeiro
 Belo Horizonte
@@ -437,7 +437,7 @@ Tongi
 Bhātāra
 Savar Upazila
 Narsingdi
-Nogor Noluakot
+Nagar Naluakot
 Moscow
 St Petersburg
 Novosibirsk
@@ -535,8 +535,8 @@ Cologne
 Frankfurt am Main
 Stuttgart
 Düsseldorf
-Großzschocher
 Kleinzschocher
+Großzschocher
 Essen
 Istanbul
 Ankara
@@ -566,7 +566,7 @@ Hat Yai
 Pak Kret
 Si Racha
 Amphoe Phra Pradaeng
-Don Mueang
+Khet Don Mueang
 Lampang
 Paris
 Marseille
@@ -582,12 +582,12 @@ London
 Birmingham
 Liverpool
 Glasgow
+Manchester
 Sheffield
 Leeds
 Edinburgh
 Bristol
 Cardiff
-Manchester
 Rome
 Milan
 Naples
@@ -616,8 +616,8 @@ Gwangju
 Daejeon
 Suwon
 Goyang-si
-Seongnam-si
 Changwon
+Ulsan
 Bogotá
 Santiago de Cali
 Medellín
@@ -646,7 +646,7 @@ Donetsk
 Lviv
 Zaporizhzhya
 Kryvyi Rih
-Sevastopol
+Sebastopol
 Mykolayiv
 Buenos Aires
 Córdoba
@@ -680,8 +680,8 @@ Lublin
 Katowice
 Kabul
 Herat
-Mazari Sharif
 Kandahar
+Mazari Sharif
 Jalalabad
 Kunduz
 Ghazni
@@ -779,7 +779,7 @@ Chongjin
 Man’gyŏngdae-ri
 Kaech’ŏn
 Taipei
-New Taipei City
+New Taipei
 Kaohsiung
 Taichung
 Tainan City
@@ -800,7 +800,7 @@ Kandy
 Trincomalee
 Bucharest
 Sector 3
-Iasi
+Iași
 Sector 6
 Sector 2
 Constanța
@@ -816,8 +816,8 @@ Valparaíso
 Talcahuano
 San Bernardo
 Port Montt
+Arica
 Temuco
-Concepción
 Almaty
 Shymkent
 Aktobe
@@ -985,8 +985,8 @@ Lankaran
 Tovuz
 Yevlakh
 Mingachevir
-Lerik
 Saatlı
+Lerik
 Qaraçuxur
 Budapest
 Debrecen
@@ -998,3 +998,303 @@ Zugló
 Győr
 Óbuda-Békásmegyer
 Nyíregyháza
+Dubai
+Abu Dhabi
+Sharjah
+Al Ain City
+Ajman
+Deira
+Ras al-Khaimah
+Musaffah City
+Jebel Ali
+Business Bay
+Tegucigalpa
+San Pedro Sula
+La Ceiba
+Choloma
+El Progreso
+Ciudad Choluteca
+Comayagua
+Puerto Cortez
+La Lima
+Danlí
+Minsk
+Homyel
+Hrodna
+Vitebsk
+Mogilev
+Brest
+Babruysk
+Baranovichi
+Borisov
+Pinsk
+Dushanbe
+Isfara
+Istaravshan
+Kŭlob
+Konibodom
+Khujand
+Kurgan-Tyube
+Qayroqqum
+Vahdat
+Tursunzoda
+Jerusalem
+Tel Aviv
+West Jerusalem
+Haifa
+Rishon LeZiyyon
+Petah Tikva
+Netanya
+Ashdod
+Bnei Brak
+Holon
+Vienna
+Graz
+Linz
+Favoriten
+Donaustadt
+Floridsdorf
+Salzburg
+Innsbruck
+Ottakring
+Simmering
+Zurich
+Geneva
+Basel
+Lausanne
+Bern
+Winterthur
+Lucerne
+Saint Gallen
+Lugano
+Zürich (Kreis 11)
+Hong Kong
+New Territories
+Kowloon
+Hong Kong Island
+Victoria
+Tuen Mun
+Shatin
+Sham Shui Po
+Wong Tai Sin
+Tseung Kwan O
+Vientiane
+Savannakhet
+Pakse
+Thakhek
+Luang Prabang
+Xam Nua
+Muang Phônsavan
+Sekong
+Muang Xay
+Vang Vieng
+Sofia
+Plovdiv
+Varna
+Burgas
+Stara Zagora
+Rousse
+Pleven
+Sliven
+Pernik
+Dobrich
+Belgrade
+Niš
+Novi Sad
+Zemun
+Kragujevac
+Čačak
+Subotica
+Leskovac
+Novi Pazar
+Kraljevo
+Asunción
+Ciudad del Este
+San Lorenzo
+Capiatá
+Lambaré
+Fernando de la Mora
+Limpio
+Nemby
+Pedro Juan Caballero
+Encarnación
+Beirut
+Ra’s Bayrūt
+Tripoli
+Sidon
+Tyre
+Aley
+Nabatîyé et Tahta
+Habboûch
+Jounieh
+Zahle
+Managua
+León
+Masaya
+Chinandega
+Matagalpa
+Estelí
+Granada
+Mateare
+Jinotega
+El Viejo
+San Salvador
+Soyapango
+San Miguel
+Santa Ana
+Mejicanos
+Santa Tecla
+Apopa
+Delgado
+Sonsonate
+San Marcos
+Bishkek
+Osh
+Jalal-Abad
+Karakol
+Tokmok
+Uzgen
+Kara-Balta
+Balykchy
+Naryn
+Bazar-Korgon
+Ashgabat
+Turkmenabat
+Dashoguz
+Mary
+Balkanabat
+Bayramaly
+Türkmenbaşy
+Tejen
+Abadan
+Yolöten
+Copenhagen
+Aarhus
+Odense
+Aalborg
+Frederiksberg
+Esbjerg
+Randers
+Kolding
+Horsens
+Vejle
+Singapore
+Ulu Bedok
+Bedok New Town
+Tampines
+Jurong Town
+Tampines New Town
+Jurong West
+Woodlands
+Sengkang
+Hougang
+Helsinki
+Espoo
+Tampere
+Oulu
+Turku
+Vantaa
+East Helsinki
+Jyväskylä
+Kuopio
+Lahti
+Bratislava
+Košice
+Nitra
+Prešov
+Žilina
+Banská Bystrica
+Trnava
+Trenčín
+Poprad
+Martin
+Oslo
+Bergen
+Trondheim
+Stavanger
+Drammen
+Kristiansand
+Lillestrøm
+Sandnes
+Fredrikstad
+Tromsø
+San José
+Puerto Limón
+San Francisco
+Alajuela
+Liberia
+Paraíso
+Puntarenas
+San Isidro de El General
+Curridabat
+San Vicente
+Dublin
+Dublin South
+Cork
+Limerick
+Galway
+Tallaght
+Waterford
+Swords
+Drogheda
+Dundalk
+Muscat
+Seeb
+Bawshar
+Ibri
+Salalah
+Saham
+Rustaq
+Sohar
+As Suwayq
+Barkā’
+East Jerusalem
+Gaza
+Khan Yunis
+Jabalia
+Hebron
+Nablus
+Rafah
+Deir el-Balah
+Beit Lahia
+Battir
+Panama City
+San Miguelito
+Juan Díaz
+David
+Arraiján
+Colón
+Las Cumbres
+La Chorrera
+Pedregal
+Tocumen
+Al Ahmadi
+Hawalli
+As Sālimīyah
+Sabah Al Salem
+Al Farwānīyah
+Al Faḩāḩīl
+Kuwait City
+Ar Rumaythīyah
+Ar Riqqah
+Salwá
+Zagreb
+Split
+Rijeka
+Osijek
+Zadar
+Sesvete
+Pula
+Slavonski Brod
+Karlovac
+Donji grad
+Tbilisi
+Batumi
+Kutaisi
+Rustavi
+Sukhumi
+Gori
+P’ot’i
+Zugdidi
+Ts'khinvali
+Samtredia
