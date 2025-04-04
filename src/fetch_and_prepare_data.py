@@ -46,7 +46,7 @@ def process_city_data(input_file, api_key):
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"Input file not found: {input_file}")
 
-    with open(input_file, "r") as f:
+    with open(input_file, "r", encoding="utf-8") as f:
         city_names = [line.strip() for line in f.readlines()]
     
     for index, city_name in enumerate(city_names):
