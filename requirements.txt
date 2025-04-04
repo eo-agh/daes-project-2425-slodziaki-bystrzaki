@@ -6,3 +6,4 @@ sentinelhub
 pillow
 requests
 pandas
+nbstripout
