@@ -75,8 +75,20 @@ Finalnym rozwiązaniem została normalizacja danych poprzez zastosowanie logaryt
 
 ### Wyniki
 
-Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%!
+Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%:
 
+![image](https://github.com/user-attachments/assets/a707428f-e86c-4a19-b2d2-cbe9314658f3)
 
 Jedynym problem jest overfitting, przez który model poradził sobie bardzo źle na danych testowych, osiągając średni błąd 429%:
 
+![image](https://github.com/user-attachments/assets/42de3c5b-94c4-463d-a3bd-69a6f7a3c817)
+
+Zdecydowanie nie wyszło.
+
+Pierwszą techiką, która może pomóc, jest dodanie szumu do modelu:
+
+Osiąga on wtedy średni błąd 25% na danych uczących:
+
+![image](https://github.com/user-attachments/assets/5b267b6c-d39b-4ea1-9bfd-7cf75b748930)
+
+I *tylko* 313% na danych testowych
