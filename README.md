@@ -97,11 +97,11 @@ I *tylko* 313% na danych testowych
 
 Ostatnim ratunkiem jest augmentacja danych, poprzez losowe odbijanie zdjęć w poziomie lub pionie.
 
-Model osiągnął średni błąd na poziomie 118%:
+Model osiągnął średni błąd na poziomie 135%:
 
-![image](https://github.com/user-attachments/assets/0bdf49b5-642e-4d03-b581-7274ac683d02)
-
-a na zbiorze testowym 235%:
+![image](https://github.com/user-attachments/assets/d1697801-1f47-4b90-949e-e4ea5f19477f)
 
 
+a na zbiorze testowym 187%:
 
+![image](https://github.com/user-attachments/assets/e9b35544-0413-4f47-b392-dfd4354a571f)
