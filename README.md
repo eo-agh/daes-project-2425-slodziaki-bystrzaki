@@ -56,3 +56,27 @@ Output:
 
 <img width="1364" alt="image" src="https://github.com/user-attachments/assets/3564045b-48a3-4c5a-ba2a-8f0c9ec49dbf" />
 
+
+## Uczenie sieci neuronowych
+
+### Architektura sieci
+
+Użyta sieć neuronowa składa się z kilku warstw konwolucyjnych oraz jednej warswy liniowej na końcu.
+
+### Funkcja błędu
+
+Typową funkcją błędu w modelach regresyjnych jest średni błąd kwadratowy. Jednak ze względu na charakter danych, bardziej interesującą metryką jest średni błąd względny.
+
+Użycie średniego błędu względnego okazało się jednak nieskuteczne podczas nauki, dlatego kolejne próby sprowadzały się do przygotowania danych dla MSE.
+
+Głównym problemem MSE były zbyt duże błędy wynikające z ogromnych populacji w miastach, przez co uczenie nie postępowało. Wydawać by się mogło, że normalizacja jest dobrym pomysłem (chociażby przez podzielenie przez liczbę milionów), jednak nie rozwiązywało to problemów związanych z nierównomierną czułością w zależności od wielkości miasta. 
+
+Finalnym rozwiązaniem została normalizacja danych poprzez zastosowanie logarytmu. Dzięki temu, liniowy błąd jest odpowiednikiem błędu względnego. Interpretacją wyjścia modelu jest rząd wielkości populacji (ile zer ma populacja).
+
+### Wyniki
+
+Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%!
+
+
+Jedynym problem jest overfitting, przez który model poradził sobie bardzo źle na danych testowych, osiągając średni błąd 429%:
+
