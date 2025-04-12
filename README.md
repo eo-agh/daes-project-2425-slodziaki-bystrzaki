@@ -32,7 +32,7 @@ Ten skrypt tworzy plik txt z nazwami miast.
 
 Output:
 
-<img width="449" alt="image" src="https://github.com/user-attachments/assets/646ac67e-5194-45c9-b4b0-53e5f97af681" />
+<img width="449" height="400" alt="image" src="https://github.com/user-attachments/assets/646ac67e-5194-45c9-b4b0-53e5f97af681" />
 
 
 ## tworzenie pliku z informacjami o miastach (nazwa, longitude, latitude, populacja)
@@ -43,7 +43,7 @@ Ten skrypt pobiera koordynaty oraz populacje miast na podstawie pliku z nazwami 
 
 Output:
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/8f5ef116-e916-44cd-922d-8bc30ac745f7" />
+<img width="420" height="400" alt="image" src="https://github.com/user-attachments/assets/8f5ef116-e916-44cd-922d-8bc30ac745f7" />
 
 
 ## pobieranie obrazów
@@ -54,10 +54,10 @@ Ten skrypt pobiera obrazy satelitarne na podstawie pliku ze współrzędnymi geo
 
 Output:
 
-<img width="1364" alt="image" src="https://github.com/user-attachments/assets/3564045b-48a3-4c5a-ba2a-8f0c9ec49dbf" />
+<img width="1364" height="400" alt="image" src="https://github.com/user-attachments/assets/3564045b-48a3-4c5a-ba2a-8f0c9ec49dbf" />
 
 
-## Uczenie sieci neuronowych
+## Uczenie sieci neuronowych (Regresja)
 
 ### Architektura sieci
 
@@ -69,19 +69,19 @@ Typową funkcją błędu w modelach regresyjnych jest średni błąd kwadratowy.
 
 Użycie średniego błędu względnego okazało się jednak nieskuteczne podczas nauki, dlatego kolejne próby sprowadzały się do przygotowania danych dla MSE.
 
-Głównym problemem MSE były zbyt duże błędy wynikające z ogromnych populacji w miastach, przez co uczenie nie postępowało. Wydawać by się mogło, że normalizacja jest dobrym pomysłem (chociażby przez podzielenie przez liczbę milionów), jednak nie rozwiązywało to problemów związanych z nierównomierną czułością w zależności od wielkości miasta. 
+Głównym problem MSE były zbyt duże błędy wynikające z ogromnych populacji w miastach, przez co uczenie nie postępowało. Wydawać by się mogło, że normalizacja jest dobrym pomysłem (chociażby przez podzielenie przez liczbę milionów), jednak nie rozwiązywało to problemów związanych z nierównomierną czułością w zależności od wielkości miasta.
 
 Finalnym rozwiązaniem została normalizacja danych poprzez zastosowanie logarytmu. Dzięki temu, liniowy błąd jest odpowiednikiem błędu względnego. Interpretacją wyjścia modelu jest rząd wielkości populacji (ile zer ma populacja).
 
 ### Wyniki
 
-Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%:
+Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%:
 
-![image](https://github.com/user-attachments/assets/a707428f-e86c-4a19-b2d2-cbe9314658f3)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/a707428f-e86c-4a19-b2d2-cbe9314658f3" />
 
 Jedynym problem jest overfitting, przez który model poradził sobie bardzo źle na danych testowych, osiągając średni błąd 429%:
 
-![image](https://github.com/user-attachments/assets/42de3c5b-94c4-463d-a3bd-69a6f7a3c817)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/42de3c5b-94c4-463d-a3bd-69a6f7a3c817" />
 
 Zdecydowanie nie wyszło.
 
@@ -89,19 +89,37 @@ Pierwszą techiką, która może pomóc, jest dodanie szumu do modelu:
 
 Osiąga on wtedy średni błąd 25% na danych uczących:
 
-![image](https://github.com/user-attachments/assets/5b267b6c-d39b-4ea1-9bfd-7cf75b748930)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/5b267b6c-d39b-4ea1-9bfd-7cf75b748930" />
 
 I *tylko* 313% na danych testowych
 
-![image](https://github.com/user-attachments/assets/70bf3705-0b37-450c-828b-e44660749103)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/70bf3705-0b37-450c-828b-e44660749103" />
 
 Ostatnim ratunkiem jest augmentacja danych, poprzez losowe odbijanie zdjęć w poziomie lub pionie.
 
 Model osiągnął średni błąd na poziomie 135%:
 
-![image](https://github.com/user-attachments/assets/d1697801-1f47-4b90-949e-e4ea5f19477f)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/d1697801-1f47-4b90-949e-e4ea5f19477f" />
 
 
 a na zbiorze testowym 187%:
 
-![image](https://github.com/user-attachments/assets/e9b35544-0413-4f47-b392-dfd4354a571f)
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/e9b35544-0413-4f47-b392-dfd4354a571f" />
+
+## Uczenie sieci neuronowych (Klasyfikacja)
+
+Przewidywanie konkretnych wartości okazało się zbyt złożonym procesem do nauki, dlatego kolejne próby polegały na nauczeniu sieci klasyfikacji miast pod względem ich rozmiaru.
+
+Jako granice przedziałów wybierano takie populacje, które gwarantowały równą liczbę miast w każdym przedziale.
+
+### Dwie klasy
+
+Klasy:
+0: 0-750k mieszkańców
+1: 750k+ mieszkańców
+
+![image](https://github.com/user-attachments/assets/06e3eb3c-05aa-4fbf-8927-d9e91463a1c5)
+
+![Uploading image.png…]()
+
+
