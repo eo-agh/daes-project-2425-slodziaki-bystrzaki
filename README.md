@@ -124,8 +124,6 @@ Klasy:
 
 <img src="https://github.com/user-attachments/assets/06e3eb3c-05aa-4fbf-8927-d9e91463a1c5" height="400">
 
-
-<img src="https://github.com/user-attachments/assets/675cc057-7877-45ed-b6c7-caf895786382" height="100">
-
 Model osiągnął wynik f1-score na poziomie 0.79, co jest całkiem niezłym wynikiem.
 
+<img src="https://github.com/user-attachments/assets/675cc057-7877-45ed-b6c7-caf895786382" height="100">
