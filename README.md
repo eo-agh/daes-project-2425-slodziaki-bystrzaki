@@ -112,6 +112,10 @@ Przewidywanie konkretnych wartości okazało się zbyt złożonym procesem do na
 
 Jako granice przedziałów wybierano takie populacje, które gwarantowały równą liczbę miast w każdym przedziale.
 
+Model:
+
+<img src="https://github.com/user-attachments/assets/83dcccc2-8fe1-4823-a4b2-928b9bfb029e" height="400">
+
 ### Dwie klasy
 
 Klasy:
