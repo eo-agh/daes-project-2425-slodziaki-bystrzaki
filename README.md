@@ -127,3 +127,18 @@ Klasy:
 Model osiągnął wynik f1-score na poziomie 0.79, co jest całkiem niezłym wynikiem.
 
 <img src="https://github.com/user-attachments/assets/675cc057-7877-45ed-b6c7-caf895786382" height="100">
+
+## Regresja liniowa 
+
+### Funkcja błędu
+
+Jako funkcję błędu 
+Finalnym rozwiązaniem została normalizacja danych poprzez zastosowanie logarytmu. Dzięki temu, liniowy błąd jest odpowiednikiem błędu względnego. Interpretacją wyjścia modelu jest rząd wielkości populacji (ile zer ma populacja).
+
+### Wyniki
+
+Dobra wiadomość jest taka, że model jest w stanie nauczyć się danych bardzo dobrze, osiągając średni błąd 7.2%:
+
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/a707428f-e86c-4a19-b2d2-cbe9314658f3" />
+
+Jedynym problem jest overfitting, przez który model poradził sobie bardzo źle na danych testowych, osiągając średni błąd 429%:
